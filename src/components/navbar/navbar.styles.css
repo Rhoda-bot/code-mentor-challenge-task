@@ -1,0 +1,24 @@
+#snap{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.d-flex{
+  column-gap: 20px;
+  margin-left: 50px;
+}
+.sign-btn{
+  border: 1.5px solid #000000;
+  border-radius: 7px;
+  width: 100px;
+  padding: 3.4px;
+}
+@media screen and (max-width:700) {
+  .d-flex{
+    margin-right: 0;
+    column-gap: 2px;
+  }
+  .sign-btn{
+    z-index: 30px;
+  }
+
+}
